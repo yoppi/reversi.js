@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta charset="utf-8"></meta>
+    <title>reversi.js</title>
+    <link href="reversi.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="reversi">
+      <div id="board"></div>
+    </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="reversi.js"></script>
+  <script type="text/javascript">
+    $(function() {
+        var game = new Reversi.Game(
+          {ai: false, stone: Reversi.Stone.black},
+          {ai: true, stone: Reversi.Stone.white}
+        );
+      game.start();
+    });
+  </script>
+  </body>
+</html>
