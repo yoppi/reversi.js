@@ -1,0 +1,15 @@
+#reversi {
+  text-align: center;
+}
+
+#board {
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+}
+#board table {
+  border-collapse: collapse;
+  border: solid 1px;
+}
+#board table td {
+  border: solid 1px;
+  text-align: center;
+}
